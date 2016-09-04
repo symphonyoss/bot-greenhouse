@@ -1,0 +1,91 @@
+/wenger-external/src/local/*
+/wenger-external/src/local
+/wenger-internal/src/resources/retention_result
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+.svn
+
+*.orig
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# encrypted files from SecureLocalPersistence
+*.lok
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Intellij
+.idea
+atlassian-ide-plugin.xml
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.settings
+.project
+.classpath
+
+#gradle
+.gradle/
+
+# Mac
+.DS_Store
+
+# Maven
+target/
+
+# Log files
+*.log
+
+# Java
+out/**
+*.class
+build/
+
+gs-implementation/
+commons/zookeeper/local-config.json
+tools/local-bootstrap.json
+esquery/data
+aggregated-jacoco.html
+integrationtests/test-output
+integrationtests/src/test/resources/testdata/bootstrap_users_*.js
+integrationtests/src/test/resources/configs/local.properties
+
+**/local-config-all.json
+
+integrationtests/local.properties
+PodUsersToDirectory.csv
+PodUsersToDirectory.temp
+
+#secure local persistance left overs
+*.lok
+
+#logs
+symphony.log
+symphony.log.*
+
+#
+# Dependency reduce thing
+#
+sdk/dependency-reduced-pom.xml
+
+# docker image exclusions
+docker/base-images/sbe/files/keystore
+docker/sfe
+
+**/try.story
+
+*.sink
+
+ajcore.*.txt
+
+# Service user certificates
+src/com/symphony/resources/symphony-bot-user.p12
+
