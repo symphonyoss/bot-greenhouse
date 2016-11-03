@@ -36,7 +36,7 @@ public class SymphonyConfigurationProvider extends ISymphonyConfigurationProvide
 
   @Override
   public String getSymphonyKeystorePassword() {
-    return "cOrpB0tK3y";
+    return "YOUR SYMPHONY KEYSTORE PASSWORD";
   }
 
   @Override
@@ -46,7 +46,7 @@ public class SymphonyConfigurationProvider extends ISymphonyConfigurationProvide
 
   @Override
   public String getSymphonyBaseURL() {
-    return "https://sym-corp-stage-guse1-aha1.symphony.com:8444";
+    return "YOUR SYMPHONY BASE URL"; //Ex: https://sym-corp-stage-guse1-aha1.symphony.com:8444
   }
 
   @Override
