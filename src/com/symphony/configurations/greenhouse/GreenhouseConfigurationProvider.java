@@ -34,6 +34,6 @@ public class GreenhouseConfigurationProvider implements IGreenhouseConfiguration
 
   @Override
   public String getApiToken() {
-    return "fd93d82614a48fb7334c0abc9e866671:";
+    return "YOUR GREENHOUSE API TOKEN";
   }
 }
