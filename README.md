@@ -21,5 +21,7 @@ In the future, this bot can be expanded to continuously remind Symphonians that 
 
 - Install maven dependencies from pom.xml
 
+- Modify [GreenhouseConfigurationProvider.java](https://github.com/symphonyoss/bot-greenhouse/blob/master/src/com/symphony/configurations/greenhouse/GreenhouseConfigurationProvider.java) and [SymphonyConfigurationProver.java](https://github.com/symphonyoss/bot-greenhouse/blob/master/src/com/symphony/configurations/symphony/SymphonyConfigurationProvider.java) with your custom Greenhouse API token and Symphony password/url/certificate
+
 - Run the main method of 'SymGreenhouseBotApp.java'
 
